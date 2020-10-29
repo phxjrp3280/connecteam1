@@ -1,0 +1,21 @@
+
+drop table teams_transaction;
+
+  create table teams_transaction (id SERIAL,
+    jobname VARCHAR(255),
+    target_phone1 varchar(255),
+    target_datetime  TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP);
+
+  INSERT INTO teams_transaction (jobname, target_phone1, target_datetime) VALUES
+  ('tuesdays calls','555-555-1111','10/21/2020');
+
+  INSERT INTO teams_transaction (jobname, target_phone1, target_datetime) VALUES
+  ('tuesdays calls','555-555-2222','10/21/2020');
+
+  INSERT INTO teams_transaction (jobname, target_phone1, target_datetime) VALUES
+  ('tuesdays calls','555-555-3333','10/21/2020');
+
+  INSERT INTO teams_transaction (jobname, target_phone1, target_datetime) VALUES
+  ('tuesdays calls','555-555-4444','10/21/2020');
+
+  select a.jobname, a.target_phone1, a.target_datetime, b.player_name from teams_transaction a, teams b where b.phone1 = a.target_phone1;

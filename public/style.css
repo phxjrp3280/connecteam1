@@ -1,0 +1,203 @@
+.deletebtn {
+  width: 100px;
+  height:20px;
+  border: 2px solid black;
+  border-radius:10px;
+  padding: 10px;
+  margin: 10px 0px 0px 20px;
+
+}
+.nav-item{
+  padding: 10px 20px 10px 10px;
+  font-family: 'Cormorant Garamond', serif;
+  width:300px;
+}
+
+main {
+  background-image: url("./socpic.jpg");
+  min-height: 500px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  height:1200px;
+}
+
+.addbtn{
+  padding: 5px 0px 0px 10px;
+  font-family: 'Cormorant Garamond', serif;
+  width:94px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 25px;
+  margin: 35px 0px 0px 10px;
+}
+
+.container {
+  background-color: white;
+  opacity: .9;
+  border-radius: 3px;
+}
+
+.playerContainer {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18% 14% 14%;
+  grid-gap:1%
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: 18% 17% 18% 18% 14% 14%;
+  grid-gap:1%
+}
+
+.playerElement {
+  padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#teamName {
+  padding: 0px 0px 0px 50px;
+}
+
+#playerName {
+  padding: 0px 0px 0px 43px;
+}
+
+#parentName {
+  padding: 0px 0px 0px 35px;
+}
+
+#preferredPhone {
+  padding: 0px 0px 0px 25px;
+}
+
+#jobname {
+  padding: 0px 0px 0px 25px;
+}
+#playername {
+  padding: 0px 0px 0px 12px;
+}
+
+#targetPhone {
+  padding: 0px 0px 0px 0px;
+}
+
+#datetime {
+  padding: 0px 0px 0px 0px;
+}
+
+
+.billingHeaderContainer {
+  padding: 20px 5px 10px 10px;
+  display: grid;
+  grid-template-columns: 18% 17% 17% 18% 14% 14%;
+  grid-gap:1%
+}
+.billingContainer{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 14% 14%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.billingElement, .totalcost {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.editTeam{
+      font-family: 'Cormorant Garamond', serif;
+}
+
+.totalcost {
+  font-family: 'Cormorant Garamond', serif;
+  display:grid;
+  grid-template-columns: 10% 18% 18% 18% 14% 14%;
+  padding: 5px 5px 5px 40px;
+  font-size: 20px;
+  font-weight:600;
+}
+
+input[type=text]{
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin:2px 0px 2px 20px;
+    height:30px;
+    background-color: white;
+}
+
+textarea {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin:2px 0px 2px 20px;
+}
+
+input[type=submit] {
+  width: 133px;
+  background-color: light-grey;
+  margin: 15px 0px 10px 170px;
+  border: 2px solid black;
+  border-radius:5px;
+}
+
+.formlabeltop{
+  font-family: 'Cormorant Garamond', serif;
+  display: flex;
+  margin: 0px 0px 0px 15px;
+}
+
+.formlabel{
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0px 0px 0px 15px;
+  width: 100px;
+  padding: 10px;
+}
+
+.messaging {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.playertitle, .billingHead {
+  font-family: 'Cormorant Garamond', serif;
+  padding: 20px 5px 10px 10px;
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18% 14% 14%;
+  grid-gap:1%}
+
+.jobname{
+  margin-left: 20px;
+  width: 300px;
+}
+
+.jntitle {
+  margin-left: 25px;
+  width:300px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+i {
+  padding: 5px;
+}
+
+.sentdiv {
+  display:flex;
+}
+.sentel {
+  padding: 1px;
+}
+.billdetail, .sentel, .sentdiv {
+  font-family: 'Cormorant Garamond', serif;
+  padding: 20px 5px 10px 10px;
+
+}
